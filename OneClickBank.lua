@@ -121,10 +121,7 @@ end
 -- on SlashCommand "/ocb"
 function OneClickBank:OnOneClickBankOn()
 	local anchor = {self.wndMyButton:GetAnchorOffsets()}
-	self.log.debug(anchor[1])
-	self.log.debug(anchor[2])
-	self.log.debug(anchor[3])
-	self.log.debug(anchor[4])
+	self.log:debug("HFDDH")
 end
 
 -- bank window opened event handler
