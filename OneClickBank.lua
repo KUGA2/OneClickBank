@@ -149,6 +149,7 @@ function OneClickBank:AOnBankWindowOpened()
 	--DBG_PRINT(anchor[ANCHOR_BOTTOM])
 	self.wndMyButton:Show(true)
 	self.wndForm:Show(true)
+	self.log:debug("Test")
 end
 
 -- bank window closed event handler
