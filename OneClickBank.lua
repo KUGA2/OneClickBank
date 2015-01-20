@@ -122,6 +122,7 @@ end
 function OneClickBank:OnOneClickBankOn()
 	local anchor = {self.wndMyButton:GetAnchorOffsets()}
 	self.log:debug("HFDDH")
+	Print("lalalalalalalallalalalallalalalaal")
 end
 
 -- bank window opened event handler
